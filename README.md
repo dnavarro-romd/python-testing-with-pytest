@@ -1,6 +1,8 @@
 # Python Testing with pytest
 
 - [Python Testing with pytest](#python-testing-with-pytest)
+  - [0. Preamble](#0-preamble)
+    - [Usage](#usage)
   - [1. Getting Started with pytest](#1-getting-started-with-pytest)
     - [Using Options](#using-options)
   - [2. Writing Test Functions](#2-writing-test-functions)
@@ -94,6 +96,22 @@
     - [Creating an Installable Package](#creating-an-installable-package)
     - [Creating a Source Distribution and Wheel](#creating-a-source-distribution-and-wheel)
   - [Sources](#sources)
+
+## 0. Preamble
+
+- The content of this repo is heavily based on the book _Python Testing with Pytest_ by Brian Okken (1st edition).
+  - The directories, `ch2`, `ch3`, etc., correspond to the chapters in the book.
+
+### Usage
+
+- Fork and clone this repo to your local machine.
+- If you're not using VS Code, you can discard the `.vscode` directory.
+  - Even if you are, use the settings file only as a guide as things may have changed or you have a different preferred setup.
+- Use [`requirements.txt`](requirements.txt) to install the dependencies.
+  - See <https://learnpython.com/blog/python-requirements-file/>.
+  - You are likely to need to update the file with the latest releases of the modules.
+  - This version of the file is what I have found to work for me when I last updated this repo.
+  - Not all of the modules in this file is needed to run the examples here!
 
 ## 1. Getting Started with pytest
 

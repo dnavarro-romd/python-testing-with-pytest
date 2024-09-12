@@ -1,7 +1,4 @@
 {
-    "python.pythonPath": "venv/bin/python",
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
     "cSpell.ignoreWords": [
         "asdict",
         "builtin"
@@ -12,5 +9,4 @@
     "python.testing.pytestArgs": [
         "ch2"
     ],
-    "python.testing.nosetestsEnabled": false
 }
